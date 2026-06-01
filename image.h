@@ -11,6 +11,5 @@ typedef struct {
 } Image;
 
 Image loadImage(const char *path);
-void freeImage(Image *img);
 
 #endif // !IMAGE_H
